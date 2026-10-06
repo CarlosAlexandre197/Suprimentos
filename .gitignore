@@ -1,0 +1,22 @@
+# Banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Ambiente virtual
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# Relatórios PDF
+*.pdf
+
+# Arquivos temporários
+*.tmp
+*.log
