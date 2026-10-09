@@ -26,7 +26,8 @@ try:
 except ImportError:
     reportlab = None
 
-DB = os.path.join(os.path.dirname(os.path.abspath(__file__)), "suprimentos.db")
+BASE_DIR = os.path.dirname(sys.executable) if getattr(sys, "frozen", False) else os.path.dirname(os.path.abspath(__file__))
+DB = os.path.join(BASE_DIR, "suprimentos.db")
 # paleta azul
 AZUL = "#1F5FBF"
 AZUL_ESCURO = "#12397A"
